@@ -1,0 +1,1 @@
+Skúmanie efektu príznakov O_CREAT|O_EXCL pri otvorení neexistujúceho a existujúceho súboru.

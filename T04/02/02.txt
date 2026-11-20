@@ -1,0 +1,5 @@
+Hodnoty parametra cmd pre ioctl():
+- TCGETS: 0x5401
+- TCSETS: 0x5402
+
+Zdroj: man 2 ioctl, /usr/include/asm-generic/ioctls.h, /usr/include/termios.h

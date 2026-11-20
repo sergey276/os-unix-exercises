@@ -1,0 +1,14 @@
+V jednom termináli:
+$ ./p1_loop
+P1_loop: zadavaj retazce (Ctrl+D/Ctrl+C na ukoncenie):
+>> ahoj
+>> test
+>> nieco dalsie
+...
+V druhom termináli:
+$ ./p2_loop
+P2_loop: citam retazce zo shared memory (Ctrl+C na ukoncenie)
+P2_loop: novy retazec: ahoj
+P2_loop: novy retazec: test
+P2_loop: novy retazec: nieco dalsie
+...

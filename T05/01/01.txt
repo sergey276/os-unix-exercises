@@ -1,0 +1,1 @@
+Program vypíše všetky premenné prostredia aktuálneho procesu pomocou globálnej premennej `environ`.

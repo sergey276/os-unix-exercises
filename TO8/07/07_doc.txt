@@ -1,0 +1,19 @@
+Scenar 1: P1, P1, P2, P2
+---------------------------------
+$ ./p1_once
+Zadaj retazec: Ahoj
+$ ./p1_once
+Zadaj retazec: Cau
+$ ./p2_once
+P2: precitany retazec zo shared memory:
+Cau
+$ ./p2_once
+P2: precitany retazec zo shared memory:
+Cau
+
+Scenar 2: P2, P1, P1, P2, P2
+---------------------------------
+$ ./p2_once
+shmget: No such file or directory    (segment este neexistuje)
+
+... atd.

@@ -1,0 +1,18 @@
+1) Pred vytvorenim:
+$ ipcs -m
+... zoznam ...
+
+2) Vytvorenie:
+$ ./shm1_create
+Vytvoreny segment: shmid = 32770, key = 0x1234, size = 1024
+
+3) Overenie:
+$ ipcs -m
+... vidiet segment so shmid 32770 ...
+
+4) Zmazanie prikazom ipcrm:
+$ ipcrm -m 32770
+
+5) Overenie po zmazani:
+$ ipcs -m
+... segment uz nie je ...

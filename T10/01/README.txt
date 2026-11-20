@@ -1,0 +1,1 @@
+Dokumentácia úlohy 1 - TCP server/klient lokalne.

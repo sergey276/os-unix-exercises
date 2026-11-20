@@ -1,0 +1,8 @@
+Úloha 5 – Viac čítajúcich procesov
+-----------------------------------
+Kompilácia:
+gcc -Wall -Wextra -o 05_bytes_multi_children 05_bytes_multi_children.c
+Spustenie:
+./05_bytes_multi_children /dev/pts/1 /dev/pts/2 /dev/pts/3
+Popis:
+Rozšírenie úlohy 3 – viac procesov číta z toho istého pipe a vypisuje do rôznych TTY.

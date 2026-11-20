@@ -1,0 +1,25 @@
+ÚLOHA 10 – Viac P1 a viac P2, jeden slot v shared memory
+
+Programy:
+  p1_sem.c
+  p2_sem.c
+
+Nastavenie:
+BUFFER_SLOTS = 1
+
+Test:
+Spustil som:
+  ./p1_sem (2×)
+  ./p2_sem (3×)
+
+P1(1):
+>> A
+P1(2):
+>> B
+
+Výpis P2 procesov:
+  P2_3: A
+  P2_1: B
+
+Správne – v každom okamihu je iba jedna správa v buffri.
+Každú správu prečíta práve jeden P2.

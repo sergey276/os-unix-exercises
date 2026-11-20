@@ -1,0 +1,21 @@
+ÚLOHA 6 – FIFO, viac P2, každý reťazec vypíše iba jeden P2
+
+Programy:
+  p1_fifo.c
+  p2_fifo_multi.c  – viac procesov čítajúcich FIFO
+
+Test:
+Spustil som 3× p2_fifo_multi a 1× p1_fifo.
+
+P1:
+>> ahoj
+>> test
+
+Výpis:
+Jeden P2:
+  ahoj
+Iný P2:
+  test
+
+Správa z FIFO je prečítaná vždy iba jedným koncovým procesom – OS garantuje
+rozdeľovanie FIFO správ medzi čítajúcich.

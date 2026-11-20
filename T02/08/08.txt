@@ -1,0 +1,1 @@
+ Porovnanie efektívnosti programov z úloh 06 a 07 pri kopírovaní veľkých súborov.

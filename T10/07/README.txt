@@ -1,0 +1,1 @@
+Dokumentácia úlohy 7 - UDP korektné blokové vypísanie súboru.

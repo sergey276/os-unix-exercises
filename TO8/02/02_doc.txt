@@ -1,0 +1,10 @@
+Pred zmazanim:
+$ ipcs -m
+... (vidiet segment s key 0x1234) ...
+
+$ ./shm2_remove
+Segment so shmid = 32769 bol zmazany (IPC_RMID).
+
+Po zmazani:
+$ ipcs -m
+... (segment uz nie je v zozname) ...

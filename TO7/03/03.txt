@@ -1,0 +1,8 @@
+Úloha 3 – Dva procesy čítajúce bajty
+-------------------------------------
+Kompilácia:
+gcc -Wall -Wextra -o 03_bytes_two_children 03_bytes_two_children.c
+Spustenie:
+./03_bytes_two_children /dev/pts/1 /dev/pts/2
+Popis:
+Rodič zapisuje dáta do pipe, dva potomkovia ich čítajú po jednom bajte a zapisujú do zadaných TTY.

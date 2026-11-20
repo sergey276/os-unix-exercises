@@ -1,0 +1,22 @@
+ÚLOHA 3 – Synchronizácia cez existenciu súboru (open(), unlink())
+
+Programy:
+  p1_file.c – zapíše do shm + vytvorí FLAGFILE
+  p2_file.c – čaká na FLAGFILE, po zistení vypíše a zmaže ho
+
+Test:
+Okno1:
+$ ./p1_file
+>> ahoj
+>> test
+
+Okno2:
+$ ./p2_file
+ahoj
+test
+
+Každý reťazec bol vypísaný iba raz.
+
+Mechanizmus:
+P1 zapisuje a vytvára súbor flagfile.dat.
+P2 čaká na jeho existenciu, po prečítaní dáta vypíše a súbor odstráni.

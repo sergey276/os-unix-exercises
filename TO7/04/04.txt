@@ -1,0 +1,8 @@
+Úloha 4 – Čítanie riadkov
+--------------------------
+Kompilácia:
+gcc -Wall -Wextra -o 04_lines_two_children 04_lines_two_children.c
+Spustenie:
+./04_lines_two_children /dev/pts/1 /dev/pts/2
+Popis:
+Rodič zapisuje náhodné riadky do pipe, dva potomkovia ich čítajú po riadkoch a vypisujú na TTY.

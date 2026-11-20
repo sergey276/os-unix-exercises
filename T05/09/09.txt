@@ -1,0 +1,1 @@
+Hodnoty premennej v rodičovi a potomkovi sa menia nezávisle – procesy majú oddelený priestor pamäte.

@@ -1,0 +1,1 @@
+Prepísanie 3 znakov od pozície 10 znakom 'A'.

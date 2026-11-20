@@ -1,0 +1,1 @@
+Dokumentácia úlohy 6 - UDP naivne vypísanie súboru.

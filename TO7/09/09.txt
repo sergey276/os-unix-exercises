@@ -1,0 +1,9 @@
+Úloha 9 – Správy + SIGUSR2
+---------------------------
+Kompilácia:
+gcc -Wall -Wextra -o 09_messages_with_sigusr2 09_messages_with_sigusr2.c
+Spustenie:
+./09_messages_with_sigusr2 /dev/pts/1 /dev/pts/2
+Popis:
+Rodič posiela správy s hlavičkou a po každej pošle signál SIGUSR2 jednému z detí,
+ktoré správu prečítajú a vypíšu.

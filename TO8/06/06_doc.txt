@@ -1,0 +1,11 @@
+ipcs -m pred
+
+spustiť P1:
+$ ./p1_once
+Zadaj retazec: Ahoj svet z P1
+ipcs -m (segment existuje)
+
+spustiť P2:
+$ ./p2_once
+P2: precitany retazec zo shared memory:
+Ahoj svet z P1

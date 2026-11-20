@@ -1,0 +1,26 @@
+ÚLOHA 2 – Viac P2 procesov, príznak v zdieľanej pamäti
+
+Programy:
+  p1_flag.c – zapisuje text
+  p2_multi_flag.c – viac inštancií, každá sa pokúša vypísať text
+
+Test:
+Spustil som:
+  okno1: ./p1_flag
+  okno2: ./p2_multi_flag
+  okno3: ./p2_multi_flag
+  okno4: ./p2_multi_flag
+
+Po zadaní textu v P1:
+>> ahoj
+
+Výpis:
+  IBA JEDEN z procesov P2 vypíše:
+ahoj
+
+Ostatné P2 nevypíšu nič.
+
+Vysvetlenie:
+Použije sa CAS (__sync_bool_compare_and_swap). Nie je garantované,
+že len 1 P2 vždy získa správu (race condition), mechanizmus nie je dokonalý.
+Cieľ úlohy – pozorovať a zdokumentovať správanie.

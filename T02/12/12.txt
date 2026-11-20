@@ -1,0 +1,1 @@
+Parametrizované prepísanie znakov podľa argumentov povelového riadku.

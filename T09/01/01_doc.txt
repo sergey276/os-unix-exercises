@@ -1,0 +1,25 @@
+ÚLOHA 1 – Synchronizácia pomocou príznaku v zdieľanej pamäti
+
+Programy:
+  p1_flag.c – zapisuje reťazce do shared memory
+  p2_flag.c – číta reťazce zo shared memory
+
+Testovanie:
+1) Spustil som P1:
+$ ./p1_flag
+>> ahoj
+>> test
+>> nieco
+
+2) Po spustení P2:
+$ ./p2_flag
+ahoj
+test
+nieco
+
+Každý reťazec bol vypísaný presne raz.
+
+Poznámka:
+P1 zapisuje len keď valid == 0.
+P2 číta len keď valid == 1.
+Synchronizácia je jednoduchá, ale pri viacerých P2 nefunguje správne.

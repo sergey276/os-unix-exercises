@@ -1,0 +1,1 @@
+Dokumentácia úlohy 5 - TCP vzdialené vypísanie súboru.

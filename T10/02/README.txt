@@ -1,0 +1,1 @@
+Dokumentácia úlohy 2 - TCP server/klient na rôznych počítačoch.

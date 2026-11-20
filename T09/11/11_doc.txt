@@ -1,0 +1,22 @@
+ÚLOHA 11 – Viac P1, viac P2, viac slotov v shared memory
+
+Programy:
+  p1_sem.c
+  p2_sem.c
+
+Nastavenie:
+BUFFER_SLOTS = 5
+
+Test:
+Spustil som 3× P1, 4× P2.
+P1 procesy generovali dáta so oneskoreniami.
+
+Výpis:
+Každá správa bola zaradená do buffra.
+Množstvo P1 < P2 aj P2 < P1 funguje.
+Správy sa neprekrývali, nestratili sa, každá byla vypísaná raz.
+
+Mechanizmus:
+SEM_SPACES – bráni preplneniu buffra
+SEM_ITEMS – bráni čítaniu z prázdneho buffra
+SEM_MUTEX – chráni kritickú sekciu

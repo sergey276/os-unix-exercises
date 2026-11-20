@@ -1,0 +1,21 @@
+ÚLOHA 9 – Porovnanie mechanizmov synchronizácie
+
+1) Príznak v shared memory
+   + jednoduché
+   − nefunguje pre viac P2, race conditions
+
+2) Súbor / open()
+   + ľahké na použitie
+   − pomalé, veľa open/unlink, nie 100% spoľahlivé
+
+3) FIFO
+   + garantuje, že každý bajt prečíta iba jeden proces
+   − dáta tečú cez kernel, nutné vytvoriť FIFO
+
+4) Semafory + shared memory
+   + najrobustnejšie, najuniverzálnejšie riešenie
+   + umožňuje viac P1, viac P2, veľký buffer
+   − zložitejšia implementácia
+
+Záver:
+Najlepšie riešenie – semafory s kruhovým bufferom.

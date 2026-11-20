@@ -1,0 +1,15 @@
+# Uloha 1
+
+Pred vytvorenim segmentu:
+$ ipcs -m
+... (tvoj realny vypis) ...
+
+Spustenie programu:
+$ ./shm1_create
+Vytvoreny segment: shmid = 32769, key = 0x1234, size = 1024
+
+Po vytvoreni segmentu:
+$ ipcs -m
+... (tvoj realny vypis, kde je vidiet novy segment) ...
+
+Komentar: pozorujeme novy segment s ID 32769, vlastnik (my user), prava napr. 666.

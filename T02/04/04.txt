@@ -1,0 +1,1 @@
+Čítanie väčšieho počtu bajtov než je k dispozícii.

@@ -1,0 +1,9 @@
+Úloha 7 – Signál SIGUSR1
+------------------------
+Kompilácia:
+gcc -Wall -Wextra -o 07_sigusr1 07_sigusr1.c
+Spustenie:
+./07_sigusr1 &
+kill -USR1 <PID>
+Popis:
+Program zaspí na 20 s a pri prijatí signálu SIGUSR1 vypíše správu na terminál.

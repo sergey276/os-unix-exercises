@@ -1,0 +1,8 @@
+Úloha 8 – Pipe a signál SIGUSR2
+--------------------------------
+Kompilácia:
+gcc -Wall -Wextra -o 08_bytes_with_sigusr2 08_bytes_with_sigusr2.c
+Spustenie:
+./08_bytes_with_sigusr2 /dev/pts/1 /dev/pts/2
+Popis:
+Deti čítajú a vypisujú znak z pipe len po prijatí signálu SIGUSR2.

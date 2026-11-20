@@ -1,0 +1,19 @@
+ÚLOHA 5 – Synchronizácia pomocou pomenovaného FIFO
+
+Programy:
+  p1_fifo.c  – zapisuje do shm + pošle 1 byte do FIFO
+  p2_fifo.c  – číta 1 byte z FIFO → znamená “čítaj shm”
+
+Test:
+./p1_fifo v okne1
+./p2_fifo v okne2
+
+P1:
+>> ahoj
+>> test
+
+P2:
+ahoj
+test
+
+FIFO zabezpečí korektné poradie a to, že každý signál prečíta presne jeden P2.

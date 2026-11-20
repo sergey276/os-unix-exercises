@@ -1,0 +1,8 @@
+Úloha 6 – Správy s hlavičkou
+-----------------------------
+Kompilácia:
+gcc -Wall -Wextra -o 06_messages_len_header 06_messages_len_header.c
+Spustenie:
+./06_messages_len_header /dev/pts/1 /dev/pts/2
+Popis:
+Rodič posiela správy vo formáte <dlzka><telo>, deti ich čítajú a vypisujú na TTY.

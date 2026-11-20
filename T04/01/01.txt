@@ -1,0 +1,8 @@
+Rozšírené prístupové práva:
+- Setuid (SUID) – spúšťanie súboru s právami vlastníka
+- Setgid (SGID) – spúšťanie súboru s právami skupiny; adresár: nové súbory zdedia skupinu
+- Sticky bit – len vlastník alebo root môže súbor v adresári odstrániť
+- ACL – detailnejšie nastavenie prístupov pre viacerých používateľov
+- Capabilities – špecifické oprávnenia bez root práv
+
+Zdroj: man chmod, man setfacl, man capabilities

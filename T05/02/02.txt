@@ -1,0 +1,2 @@
+Program nespúšťa nový proces, ale nahrádza svoj vlastný obraz programom `ls`.
+PID zostáva rovnaké, iba sa zmení obsah pamäte procesu.

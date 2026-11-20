@@ -1,0 +1,8 @@
+Úloha 1 – Nepomenovaný pipe
+----------------------------
+Kompilácia:
+gcc -Wall -Wextra -o 01_pipe 01_pipe.c
+Spustenie:
+./01_pipe
+Popis:
+Program vytvorí nepomenovaný pipe, zapíše doň reťazec a prečíta ho naspäť v tom istom procese.

@@ -1,0 +1,1 @@
+Posun súborového kurzora službou lseek v rôznych smeroch.

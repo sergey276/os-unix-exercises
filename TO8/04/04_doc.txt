@@ -1,0 +1,9 @@
+Pred vytvorením: ipcs -m
+
+Spustenie ./shm4_private
+
+Po vytvorení: ipcs -m – všimnúť si:
+
+key = 0 (IPC_PRIVATE)
+
+vlastníka, práva (0600)

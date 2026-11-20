@@ -1,0 +1,27 @@
+ÚLOHA 7 – Synchronizácia pomocou semaforov (System V)
+
+Programy:
+  p1_sem.c – producent
+  p2_sem.c – konzument
+
+Nastavenie:
+BUFFER_SLOTS = 1
+
+Test:
+./p1_sem
+./p2_sem
+
+P1:
+>> ahoj
+>> test
+
+P2:
+ahoj
+test
+
+Mechanizmus:
+SEM_MUTEX – ochrana shared memory
+SEM_ITEMS – počet správ k dispozícii
+SEM_SPACES – počet voľných miest v buffri (tu 1)
+
+Toto je čisté producer-consumer riešenie.

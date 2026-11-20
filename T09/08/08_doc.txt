@@ -1,0 +1,23 @@
+ÚLOHA 8 – Semafory, viac procesov P2
+
+Programy:
+  p1_sem.c
+  p2_sem.c
+
+Nastavenie:
+BUFFER_SLOTS = 1
+
+Test:
+Spustil som:
+  ./p1_sem
+  ./p2_sem (3×)
+
+P1:
+>> ahoj
+>> test
+
+Výpis:
+P2_1: ahoj
+P2_3: test
+
+Každý reťazec prečíta len jeden P2 vďaka SEM_ITEMS a SEM_MUTEX.

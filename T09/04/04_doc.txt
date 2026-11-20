@@ -1,0 +1,24 @@
+ÚLOHA 4 – Viac P2, súborová synchronizácia (open() + O_EXCL)
+
+Programy:
+  p1_file.c
+  p2_file_multi.c
+
+Test:
+Spustil som:
+  ./p1_file
+  ./p2_file_multi (3×)
+
+Po zadaní textu P1:
+>> ahoj
+
+Výsledok:
+Vypísal iba jeden P2:
+P2 pid 1234: ahoj
+
+Ostatné P2 nevypísali nič.
+
+Mechanizmus:
+READYFILE signalizuje nové dáta.
+LOCKFILE sa vytvára cez open(..., O_CREAT|O_EXCL). Len jeden P2 ho vytvorí.
+Tým sa zabezpečí “iba jeden výpis”.

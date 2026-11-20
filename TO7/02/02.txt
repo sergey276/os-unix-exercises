@@ -1,0 +1,10 @@
+Úloha 2 – Pipe + execve
+-----------------------
+Kompilácia:
+gcc -Wall -Wextra -o 02_writer 02_writer.c
+gcc -Wall -Wextra -o 02_reader 02_reader.c
+Spustenie:
+./02_writer
+Popis:
+Rovnaký proces vytvorí pipe, zapíše dáta a následne sa premení na iný program (02_reader),
+ktorý prečíta z daného deskriptora a vypíše obsah na obrazovku.

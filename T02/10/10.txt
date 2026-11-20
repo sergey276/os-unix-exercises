@@ -1,0 +1,1 @@
+Posun súborového kurzora daleko za koniec súboru a následný zápis bloku dát.

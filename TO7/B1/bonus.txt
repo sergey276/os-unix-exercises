@@ -1,0 +1,8 @@
+Bonus – cat | sort
+------------------
+Kompilácia:
+gcc -Wall -Wextra -o bonus_cat_sort bonus_cat_sort.c
+Spustenie:
+./bonus_cat_sort subor.txt
+Popis:
+Program vytvorí dva procesy, ktoré sa správajú ako príkazy „cat subor | sort“.

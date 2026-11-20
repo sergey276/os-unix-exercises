@@ -1,0 +1,10 @@
+ÚLOHA 12 – Riešenie pomocou pipe (pevná a premenlivá dĺžka)
+
+P1 posiela do pipe:
+  [4 bajty - dĺžka správy][N bajtov - samotná správa]
+
+P2:
+  najprv číta dĺžku → potom presne daný počet bajtov
+
+Pipe je už natívny FIFO mechanizmus OS → správy idú v korektnom poradí.
+Synchronizácia jednoduchšia než pri shared memory, ale kód je dlhší.
